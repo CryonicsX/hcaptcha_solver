@@ -1,5 +1,5 @@
 {
 
-    "mongourl": "mongodb+srv://openacc:openacc@cluster0.ducrc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongourl": ""
 
 }
