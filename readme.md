@@ -1,5 +1,5 @@
 # Python with MongoDB
-![cry31](https://cdn.discordapp.com/attachments/846754982236782593/846904499020234822/745319947395137586.png)
+![cry31](https://cdn.discordapp.com/attachments/846754982236782593/846904499020234822/745319947395137586.png) ![cry32](https://cdn.discordapp.com/attachments/839135788246630482/846920179954352148/indir.png)
 
 ### *A simple python code example using MongoDB.* 
 
