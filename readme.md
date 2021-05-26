@@ -15,4 +15,4 @@
 
  • *After filling the config.json file, you can open the file named start.bat and start the script.*
 
- • *Discord CryonicX#7777*
+ • *Discord : CryonicX#7777*
