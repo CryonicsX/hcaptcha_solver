@@ -83,7 +83,7 @@ if cryonicx == "1":
 
 
     
-    MEDİA =  input('Where will you use this password? ')
+    MEDIA =  input('Where will you use this password? ')
 
     
     for x in range(int(MAX_LEN) - 4):
@@ -110,22 +110,22 @@ if cryonicx == "1":
     
     if db == "yes" or "y":
         try:
-            mydict = {"Media":str(MEDİA),"Password":str(password) } 
+            mydict = {"Media":str(MEDIA),"Password":str(password) } 
             
             mycol.insert_one(mydict)
-            print(f"Password has been created for [{MEDİA}] || password: \n{password} ")
+            print(f"Password has been created for [{MEDIA}] || password: \n{password} ")
         except Exception as e:
             print(f"Error : {e}")
 
     else:
-        print(f"Password has been created for [{MEDİA}] || password: \n{password} \n(not saved in database)")
+        print(f"Password has been created for [{MEDIA}] || password: \n{password} \n(not saved in database)")
 
 
 if cryonicx == "2":
     try:
         pass2 = input('Enter the password you want to save: ')
-        MEDİA =  input('Where will you use this password? ')
-        mydict = {"Media":MEDİA,"Password":pass2 }
+        MEDIA =  input('Where will you use this password? ')
+        mydict = {"Media":MEDIA,"Password":pass2 }
         mycol.insert_one(mydict) 
         print('Saved to the database.')
     except Exception as e:
