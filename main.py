@@ -29,9 +29,6 @@ def genCardNumber(cardType):
     elif cardType == Card.Mastercard:
         length = 16
         prefix = str(random.randint(51, 55))
-    elif cardType == Card.AmericanExpress:
-        length = 15
-        prefix = str(random.choice([34, 37]))
     else:
         raise Exception("Invalid card type!")
     cardNumber = fillToLength(prefix, length - 1)
