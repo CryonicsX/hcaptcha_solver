@@ -48,7 +48,7 @@ def generateCVV():
 
 def generateEXP():
 	ay = random.randint(1,12)
-	yıl = random.randint(2021,2031)
+	yıl = random.randint(21,35)
 	if ay < 10:
 		ay = f"0{ay}"
 	return f"{ay}/{yıl}"
@@ -66,7 +66,7 @@ if cart_type == "visa":
 		        print(f"{genCardNumber(Card.Visa)} | {generateEXP()} | {generateCVV()}")
 
 
-elif cart_type == "Mmaster":
+elif cart_type == "master":
 	with open('ccler.txt', 'a') as f:
 		    f.write("ID      CART      CARD NUMBER      SKT      CVV\n\n")
 		    for x in range(0,count):
