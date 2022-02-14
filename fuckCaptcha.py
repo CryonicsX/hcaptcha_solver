@@ -1,4 +1,4 @@
-#  Developed by cryonicx#1337 / dirt#dirt#3009
+#  Developed by cryonicx#1337 / dirt#3009
 
 from multiprocessing.connection import answer_challenge
 import requests, json, time, hashlib, base64, math, urllib
