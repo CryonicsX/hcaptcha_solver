@@ -1,3 +1,5 @@
+#PATCHED, DM FOR WORKED VERSİON
+
 # Contact:
 * Discord: cryonicx#1337
 * Telegram: @cryonicx
