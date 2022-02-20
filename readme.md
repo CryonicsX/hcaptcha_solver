@@ -1,4 +1,4 @@
-#PATCHED, DM FOR WORKED VERSİON
+# PATCHED, DM FOR WORKED VERSİON
 
 # Contact:
 * Discord: cryonicx#1337
