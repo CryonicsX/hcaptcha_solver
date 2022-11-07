@@ -1,7 +1,7 @@
 # PATCHED, DM FOR WORKED VERSİON
 
 # Contact:
-* Discord: cryonicx#1337
+* Discord: cryonicx#6980
 * Telegram: @cryonicx
 * Icq: @cryonicx
 * Whatsapp: +1 (267) 228-9283
